@@ -26,8 +26,6 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-# Test
-
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
@@ -37,3 +35,20 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+
+## Overview
+Sawyer is a single-arm robot intended for working alongside humans and use in industrial settings. We used various strategies we learned from Berkeley's Introduction to Robotics course to allow Sawyer to analyze a maze drawn on a whiteboard and then proceed to draw the solution. 
+### Goal
+Sawyer should precisely and accurately produce and draw a solution to a maze on a whiteboard. 
+### Tasks to be Completed
+Before Sawyer is able to fully complete the main task at hand, it must first be able solve a series of smaller tasks: 
+- Vision Processing
+  - Sawyer must be able to translate a real-world image into a digitized data structure that is operable on by maze-solving algorithms
+  - Sawyer must also be able to identify the start and end locations
+- Solving the Maze
+  - Provided with a digitized image, Sawyer must compute the optimal path to move from the start position to the end position
+- Translation to Real World
+  - Sawyer must be able to use the solved maze path to determine a list of 3D locations in the real world that its end gripper (to which the marker is attached) must move through to draw the desired solution. 
+- Motion & Final Solution
+  - Sawyer must use various control laws and path planning to move through the proper locations and ultimately deposit the correct ink path solving the maze onto the whiteboard. 
