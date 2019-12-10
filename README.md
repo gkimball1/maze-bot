@@ -38,11 +38,11 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 
 
 ## Overview
-Sawyer is a single-arm robot intended for working alongside humans and use in industrial settings. We used various strategies we learned from Berkeley's Introduction to Robotics course to allow Sawyer to analyze a maze drawn on a whiteboard and then proceed to draw the solution. 
+Sawyer is a single-arm robot intended for working alongside humans and for use in industrial settings. We used various strategies taught in Berkeley's Introduction to Robotics course to allow Sawyer to analyze a maze drawn on a whiteboard before drawing the solution on the same whiteboard. 
 ### Goal
 Sawyer should precisely and accurately produce and draw a solution to a maze on a whiteboard. 
 ### Tasks to be Completed
-Before Sawyer is able to fully complete the main task at hand, it must first be able solve a series of smaller tasks: 
+Before Sawyer is able to complete the main task at hand, it must first be able solve a series of smaller tasks: 
 - Vision Processing
   - Sawyer must be able to translate a real-world image into a digitized data structure that is operable on by maze-solving algorithms
   - Sawyer must also be able to identify the start and end locations
