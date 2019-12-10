@@ -44,8 +44,8 @@ Sawyer should precisely and accurately produce and draw a solution to a maze on 
 ### Tasks to be Completed
 Before Sawyer is able to complete the main task at hand, it must first be able solve a series of smaller tasks: 
 1. Vision Processing
-  - Sawyer must be able to translate a real-world image into a digitized data structure that is operable on by maze-solving algorithms
-  - Sawyer must also be able to identify the start and end locations
+   - Sawyer must be able to translate a real-world image into a digitized data structure that is operable on by maze-solving algorithms
+   - Sawyer must also be able to identify the start and end locations
 2. Solving the Maze
   - Provided with a digitized image, Sawyer must compute the optimal path to move from the start position to the end position
 3. Translation to Real World
