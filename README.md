@@ -43,12 +43,14 @@ Sawyer is a single-arm robot intended for working alongside humans and for use i
 Sawyer should precisely and accurately produce and draw a solution to a maze on a whiteboard. 
 ### Tasks to be Completed
 Before Sawyer is able to complete the main task at hand, it must first be able solve a series of smaller tasks: 
-- Vision Processing
+1. Vision Processing
   - Sawyer must be able to translate a real-world image into a digitized data structure that is operable on by maze-solving algorithms
   - Sawyer must also be able to identify the start and end locations
-- Solving the Maze
+2. Solving the Maze
   - Provided with a digitized image, Sawyer must compute the optimal path to move from the start position to the end position
-- Translation to Real World
+3. Translation to Real World
   - Sawyer must be able to use the solved maze path to determine a list of 3D locations in the real world that its end gripper (to which the marker is attached) must move through to draw the desired solution. 
-- Motion & Final Solution
+4. Motion & Final Solution
   - Sawyer must use various control laws and path planning to move through the proper locations and ultimately deposit the correct ink path solving the maze onto the whiteboard. 
+### Applications
+There are several applications of this that could be useful in industrial or household settings. 
