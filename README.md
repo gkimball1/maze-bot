@@ -1,3 +1,4 @@
+# The Amazing Ada (Sawyer)
 ## Overview
 Sawyer is a single-arm robot intended for working alongside humans and for use in industrial settings. We used various strategies taught in Berkeley's Introduction to Robotics course to allow Sawyer to analyze a maze drawn on a whiteboard before drawing the solution on the same whiteboard. 
 ### Goal
@@ -40,6 +41,10 @@ More practically, we also considered the design of the method of ink deposition 
 Since Sawyer's precision would be limited by the lack of closed-loop control around the arm's position, we (the marker) would have to be able to physically tolerate a certain margin of error while maintaining its ink-depositing abilities. 
 As such, we designed a two-way elastic suspension system that would allow the marker to be displaced a small amount from its equilibrium position, protecting ourselves from compromising neither our drawing capabilities or the structural integrity of the marker itself. 
 This gives a small tradeoff of having the marker have a little bit of "lag" as it's dragged across the whiteboard, but for the much greater benefit of stability and simplicity of design.
+
+The result of these design choices results in a rather useful robot for use in certain applications. For instance, for operation on an assembly line, the use of just 1 AR tag on each part means less overhead in AR tag placement per part. 
+The durability of the marker is significantly lengthened because of the suspension; the
+
 
 ## Implementation
 The implemented steps were:
