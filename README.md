@@ -28,7 +28,7 @@ There are several applications of this that could be useful in industrial or hou
 ## Design
 Ultimately, the design of this solution must be able to correctly and cleanly solve a whiteboard maze. It must be able to locate the whiteboard's location & orientation, the starting point, and the ending point, and from there be able to trace its end-effector over the proper path through the maze. 
 
-We chose a whiteboard with a duct-taped maze and an AR tag located directly next to the start position. 
+We chose a whiteboard with a duct-taped maze and an AR tag located directly next to the start position. This AR tag would allow for detection of whiteboard characterisitics. We hard coded the size of the whiteboard, and determined a general region of search for the maze start and end positions relative to this AR tag. In essence, if there were no walls, we had Sawyer conclude that this was the end position. 
 
 ## Implementation
 The implemented steps were:
