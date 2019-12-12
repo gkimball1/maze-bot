@@ -28,7 +28,12 @@ There are several applications of this that could be useful in industrial or hou
 ## Design
 Ultimately, the design of this solution must be able to correctly and cleanly solve a whiteboard maze. It must be able to locate the whiteboard's location & orientation, the starting point, and the ending point, and from there be able to trace its end-effector over the proper path through the maze. 
 
-We chose a whiteboard with a duct-taped maze and an AR tag located directly next to the start position. This AR tag would allow for detection of whiteboard characterisitics. We hard coded the size of the whiteboard, and determined a general region of search for the maze start and end positions relative to this AR tag. In essence, if there were no walls, we had Sawyer conclude that this was the end position. 
+We chose a whiteboard with a duct-taped maze and an AR tag located directly next to the start position. This AR tag would allow for detection of whiteboard characterisitics. We hard coded the size of the whiteboard, and determined a general region of search for the maze start and end positions relative to this AR tag. In essence, if there were no walls, we had Sawyer conclude that this was the end position. This results in some tradeoffs in flexibility with regards to whiteboard sizing etc. 
+
+In addition to this, we considered the method of control of the end-effector's position relative to the whiteboard/AR tag. We decided it would be nice if we had closed-loop control around Sawyer's arm via head camera, but it continually gave incorrect coordinate transformations. Ultimately, we decided that given our large borders and margin for error it would be a better use of our time to have Sawyer move its end effector between points without necessarily controlling for its position relative to the whiteboard. (A future iteration of the maze-bot could include an HD external webcam to monitor Sawyer's progress)
+
+More practically, we also considered the design of the method of ink deposition onto the whiteboard. Since Sawyer's precision would be limited by the lack of closed-loop control around the arm's position, we (the marker) would have to be able to physically tolerate a certain margin of error while maintaining its ink-depositing abilities. 
+As such, we designed a two-way elastic suspension system that would allow the marker to be displaced a small amount from its equilibrium position, protecting ourselves from compromising neither our drawing capabilities or the structural integrity of the marker itself. This gives a small tradeoff of having the marker have a little bit of "lag" as it's dragged across the whiteboard, but for the much greater benefit of stability and simplicity of design.
 
 ## Implementation
 The implemented steps were:
@@ -39,7 +44,7 @@ The implemented steps were:
 3. Transform
    - A homographic transform is used to resize the image so it can be processed accurately
 4. Solve
-   - A simple BFS is used to determine the solution to the maze. Since this is a relatively small image and maze we can use BFS efficiently
+   - A simple BFS is used to determine the solution to the maze. Since this is a relatively small maze and image we can use BFS efficiently
    - Output a list of the most critical 3d points (corners) in space that the end-effector must pass through to draw out the solution
 5. Draw Solution
    - Sawyer iterates through each of the points in the list outputted by the BFS program one-by-one and utilizes the linear path-planning algorithm to draw the final solution. 
