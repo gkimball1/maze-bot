@@ -52,6 +52,7 @@ Before Sawyer is able to complete the main task at hand, it must first be able s
    - Sawyer must be able to use the solved maze path to determine a list of 3D locations in the real world that its end gripper (to which the marker is attached) must move through to draw the desired solution. 
 4. Motion & Final Solution
    - Sawyer must use various control laws and path planning to move through the proper locations and ultimately deposit the correct ink path solving the maze onto the whiteboard. 
+
 ### Applications
 There are several applications of this that could be useful in industrial or household settings. Many deal with "soft" obstacles that aren't necessarily life-ending if the robot runs into them, but still present some suboptimality in the task at hand. 
 - Having Sawyer recognize >= 2 containers and dispense something into them--say, dumping peanuts into some peanut jars in a peanut processing facility. 
