@@ -28,6 +28,21 @@ There are several applications of this that could be useful in industrial or hou
 ## Design
 Ultimately, the design of this solution must be able to correctly and cleanly solve a whiteboard maze. It must be able to locate the whiteboard's location & orientation, the starting point, and the ending point, and from there be able to trace its end-effector over the proper path through the maze. 
 
+We chose a whiteboard with a duct-taped maze and an AR tag located directly next to the start position. 
+
+## Implementation
+The implemented steps were:
+1. Position Arm
+   - The arm has to be positioned at height in order to have the arm camera fully process the maze and its position
+2. Take a photo
+   - A photo of the maze is taken and saved for further processing
+3. Transform
+   - A homographic transform is used to resize the image so it can be processed accurately
+4. Solve
+   - A simple BFS is used to determine the solution to the maze. Since this is a relatively small image and maze we can use BFS efficiently
+   - Output a list of the most critical 3d points (corners) in space that the end-effector must pass through to draw out the solution
+5. Draw Solution
+   - Sawyer iterates through each of the points in the list outputted by the BFS program one-by-one and utilizes the linear path-planning algorithm to draw the final solution. 
 
 
 
