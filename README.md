@@ -65,6 +65,14 @@ The implemented steps were:
    - Sawyer iterates through each of the points in the list outputted by the BFS program one-by-one and utilizes the linear path-planning algorithm to draw the final solution. 
 
 
+## Results
+Our project worked well and was relatively robust to most external factors, with the one exception of lighting. Given the poor image quality (resolution, exposure, etc) of Sawyer's wrist camera, there were plenty of issues--many of which were eventually resolved--associated with finding a path through the maze. Ultimately, our robot was able to find and execute solutions through multiple different mazes and a certain range of whiteboard orientations (Sawyer had trouble locating the AR tag when the whiteboard was rotated 180 degrees from the default orientation). 
+
+The robot could take an image of a maze on a whiteboard, locate the AR tag, process the image, and draw the correct solution in a total timespan of about 30 seconds. 
+
+Video: [video link to robot working](INSERT LINK HERE)
+
+
 
 # End Actual Work, Start Github Formatting (Nothing below this line will be on the final report)
 
