@@ -47,7 +47,7 @@ As such, we designed a two-way elastic suspension system that would allow the ma
 This gives a small tradeoff of having the marker have a little bit of "lag" as it's dragged across the whiteboard, but for the much greater benefit of stability and simplicity of design.
 
 The result of these design choices results in a rather useful robot for use in certain applications. For instance, for operation on an assembly line, the use of just 1 AR tag on each part means less overhead in AR tag placement per part. 
-The durability of the marker is significantly lengthened because of the suspension; the
+The durability of the marker is significantly lengthened because of the suspension; the elasticity lends some error forgiveness as the robot draws over the whiteboard. 
 
 
 ## Implementation
