@@ -1,7 +1,7 @@
 
 # The Amazing Ada (Sawyer)
 ## Overview
-Sawyer is a single-arm robot intended for working alongside humans and for use in industrial settings. We used various strategies taught in Berkeley's Introduction to Robotics course to allow Sawyer to analyze a maze drawn on a whiteboard before drawing the solution on the same whiteboard. 
+Sawyer is a single-arm robot intended for working alongside humans and for use in industrial settings. We used various strategies taught in Berkeley's Introduction to Robotics course to allow Sawyer to analyze a maze drawn on a whiteboard before drawing the solution on the same whiteboard. <img src="https://i.imgur.com/nV67Aos.jpg" width=256>
 ### Goal
 Sawyer should precisely and accurately produce and draw a solution to a maze on a whiteboard. 
 <img src="https://i.imgur.com/kc3IkRU.jpg" width = 256>
