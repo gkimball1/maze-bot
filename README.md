@@ -70,6 +70,18 @@ The robot could take an image of a maze on a whiteboard, locate the AR tag, proc
 
 Video: [video link to robot working](INSERT LINK HERE)
 
+## Conclusion
+Our finished solution satisfied our design criteria fairly well. Our robot was able to locate and solve a whiteboard maze using only one AR tag as a location/orientation marker. 
+
+Hacks: 
+Somewhat janky marker setup 
+Taped black tape over duct tape since itd be easier for the camera to see
+
+Flaws/improvements:
+Since we're doing a pixel-level search the result of our algorithm can have Sawyer move in different directions within a pixel's distance, resulting in some jittery behavior during the solution-drawing process. One way we could improve this is some sort of smoothing filter run in post-processing over the list of points that our path-finding algorithm spits out. This could take the form of some sort of clustering or weighted moving average filter that reduces groupings of close-together points into a single checkpoint that Sawyer moves through. 
+
+Would be nice to have dynamic whiteboard sizing
+- would either use one AR tag at each corner, or a very nice very robust edge-detection algorithm on the whiteboard perimeter in conjuction with an AR tag at one corner. 
 
 
 # End Actual Work, Start Github Formatting (Nothing below this line will be on the final report)
