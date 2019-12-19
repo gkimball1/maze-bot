@@ -1,3 +1,5 @@
+// These are all the commands we used to run the code
+
 ./baxter.sh ada.local
 
 rosrun intera_interface enable_robot.py -e
