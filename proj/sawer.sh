@@ -1,1 +1,0 @@
-/scratch/shared/sawer_ws/sawer.sh
