@@ -5,7 +5,6 @@ Sawyer is a single-arm robot intended for working alongside humans and for use i
 Sawyer should precisely and accurately produce and draw a solution to a maze on a whiteboard. 
 
 ![Sawyer with the maze to solve](https://i.imgur.com/USE4Rc1.png)
-![](https://i.imgur.com/1zWtLPB.jpg)
 
 ### Tasks to be Completed
 Before Sawyer is able to complete the main task at hand, it must first be able solve a series of smaller tasks: 
@@ -37,6 +36,8 @@ We chose a whiteboard with a duct-taped maze and an AR tag located directly next
 We hard coded the size of the whiteboard, and determined a general region of search for the maze start and end positions relative to this AR tag. 
 In essence, if there were no walls, we had Sawyer conclude that this was the end position. This results in some tradeoffs in flexibility with regards to whiteboard sizing etc. since now we would be limited to the same sized whiteboard and general location of the end point. 
 These tradeoffs could also be fixed with the introduction of another AR tag situated next to the end position, but we felt it would be slightly cleaner to the eye to have only one AR tag. 
+
+![maze with path](https://i.imgur.com/Ofz1Kbe.png)
 
 In addition to this, we considered the method of control of the end-effector's position relative to the whiteboard/AR tag. We decided it would be nice if we had closed-loop control around Sawyer's arm via head camera, but it continually gave incorrect coordinate transformations. 
 Ultimately, we decided that given our large borders and margin for error it would be a better use of our time to have Sawyer move its end effector between points without necessarily controlling for its position relative to the whiteboard. (A future iteration of the maze-bot could include an HD external webcam to monitor Sawyer's progress)
