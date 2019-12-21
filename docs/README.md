@@ -89,7 +89,7 @@ A more detailed flowchart of the steps is below.
 
 
 ## Results
-Our project worked well and was relatively robust to most external factors, with the one exception of lighting. Given the poor image quality (resolution, exposure, etc) of Sawyer's wrist camera, there were plenty of issues--many of which were eventually resolved--associated with finding a path through the maze. Ultimately, our robot was able to find and execute solutions through multiple different mazes and a certain range of whiteboard orientations (Sawyer had trouble locating the AR tag when the whiteboard was rotated 180 degrees from the default orientation). 
+Our project worked well and was relatively robust to most external factors, with the one exception of lighting. Given the poor image quality (resolution, exposure, etc) of Sawyer's wrist camera, there were plenty of issues--many of which were eventually resolved--associated with finding a path through the maze. Ultimately, our robot was able to find and execute solutions through multiple different mazes and a certain range of whiteboard orientations (Sawyer sometimes has trouble locating the AR tag when the whiteboard was rotated 180 degrees from the default orientation). 
 
 The robot could take an image of a maze on a whiteboard, locate the AR tag, process the image, and draw the correct solution in a total timespan of about 30 seconds. 
 
