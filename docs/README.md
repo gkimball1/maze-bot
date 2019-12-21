@@ -115,7 +115,7 @@ Hello! I'm Adrian, a third-year CS major
   - Transforming raw data into binarized image
 
 #### Bolun Du
-<Greeting here>! I'm <.........>
+(Greeting here)! I'm <.........>
 - \
 
 #### Galen Kimball
@@ -124,11 +124,11 @@ Hi! I'm Galen, a second year EECS major
 - Website & Media
 
 #### Mengti Sun
-<Greeting here>! I'm <.........>
+(Greeting here)! I'm <.........>
 - Pathfinding and BFS
 
 #### Ning Pang
-<Greeting here>! I'm <.........>
+(Greeting here)! I'm <.........>
 - \
 
 
