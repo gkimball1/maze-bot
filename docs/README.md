@@ -66,6 +66,7 @@ The implemented steps were:
    - A couple strategies are used to process this image
      - First, we begin with a high binarization threshold and gradually lower the threshold until BFS is able to find a solution. This ensures different lighting conditions do not adversely affect Sawyer's performance. 
      - Next, we pad the walls with extra pixels to mitigate the shortest path's tendency to hug the edge of a wall
+     ![processed images](https://i.imgur.com/7nrK6wp.png)
 4. Solve
    - A simple BFS is used to determine the solution to the maze. Since this is a relatively small maze/image, there's a minimal perfomance difference between using BFS versus an asymptotically faster algorithm like A-Star. 
    - Transform a list of 2d critical points into 3d coordinates
