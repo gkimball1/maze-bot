@@ -115,5 +115,5 @@ Hi! I'm Galen, a second year EECS major
 
 
 ## Additional Materials
-Code for the robot can be found in this [repository](https://github.com/gkimball1/maze-bot) under the '''proj''' folder. 
+Code for the robot can be found in this [repository](https://github.com/gkimball1/maze-bot) under the proj folder. 
 
