@@ -55,6 +55,7 @@ The durability of the marker is significantly lengthened because of the suspensi
 The implemented steps were:
 1. Position Arm
    - The arm has to be positioned at height in order to have the arm camera fully process the maze and its position
+   ![arm position](https://i.imgur.com/n0s2FyI.png)
 2. Take a photo
    - A photo of the maze is taken and saved for further processing
 3. Transform
