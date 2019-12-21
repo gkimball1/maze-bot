@@ -94,15 +94,15 @@ It would also be nice to have dynamic whiteboard sizing. Potential solutions cou
 
 ## Team
 #### Adrian Liu
-- 
+- \
 #### Bolun Du
-- 
+- \
 #### Galen Kimball
 Hi! I'm Galen, a second year EECS major
 - Broad level overview of robot tasks and solution approach, general design and implementation
 - Website & Media
 #### Mengti Sun
-- 
+- \
 #### Ning Pang
-- 
+- \
 
