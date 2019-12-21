@@ -89,3 +89,11 @@ Our finished solution satisfied our design criteria fairly well. Our robot was a
 Since we're doing a pixel-level search the result of our algorithm can have Sawyer move in different directions within a pixel's distance, resulting in some jittery behavior during the solution-drawing process. One way we could improve this is some sort of smoothing filter run in post-processing over the list of points that our path-finding algorithm spits out. This could take the form of some sort of clustering or weighted moving average filter that reduces groupings of close-together points into a single checkpoint that Sawyer moves through. 
 
 It would also be nice to have dynamic whiteboard sizing. Potential solutions could either use one AR tag at each corner, or use a very nice very robust edge-detection algorithm on the whiteboard perimeter in conjuction with an AR tag at one corner. 
+
+
+## Team
+#### Adrian Liu
+#### Bolun Du
+#### Galen Kimball
+#### Mengti Sun
+#### Ning Pang
