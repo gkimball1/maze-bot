@@ -64,8 +64,9 @@ The implemented steps were:
 3. Transform
    - A homographic transform is used to resize the image so it can be processed accurately
    - A couple strategies are used to process this image
-     - First, we begin with a high binarization threshold and gradually lower the threshold until BFS is able to find a solution. This ensures different lighting conditions do not adversely affect Sawyer's performance. 
+     - First, we begin with a high binarization threshold and gradually lower the threshold until BFS is able to find a solution. This ensures different lighting conditions do not adversely affect Sawyer's performance. (see below image)
      - Next, we pad the walls with extra pixels to mitigate the shortest path's tendency to hug the edge of a wall
+     
      ![processed images](https://i.imgur.com/7nrK6wp.png)
 4. Solve
    - A simple BFS is used to determine the solution to the maze. Since this is a relatively small maze/image, there's a minimal perfomance difference between using BFS versus an asymptotically faster algorithm like A-Star. 
