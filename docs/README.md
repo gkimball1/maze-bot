@@ -3,8 +3,9 @@ Sawyer is a single-arm robot intended for working alongside humans and for use i
 
 ### Goal
 Sawyer should precisely and accurately produce and draw a solution to a maze on a whiteboard. 
+
 ![Sawyer with the maze to solve](https://i.imgur.com/USE4Rc1.png)
-<img src="https://i.imgur.com/nV67Aos.jpg" width=256>
+![image 2](https://i.imgur.com/nV67Aos.jpg)
 
 ### Tasks to be Completed
 Before Sawyer is able to complete the main task at hand, it must first be able solve a series of smaller tasks: 
