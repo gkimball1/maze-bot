@@ -75,6 +75,7 @@ The implemented steps were:
      - Output a list of the most critical 3d points (corners) in space that the end-effector must pass through to draw out the solution
 5. Draw Solution
    - Sawyer iterates through each of the points in the list outputted by the BFS program one-by-one and utilizes the linear path-planning algorithm to draw the final solution. 
+     - We used the [descartes](http://wiki.ros.org/descartes) package to give us straight line paths between our critical points
 
 A more detailed flowchart of the steps is below.
 
@@ -122,6 +123,7 @@ Hello! I'm Adrian, a third-year CS major
 Greetings! I'm Bolun, a third-year EECS major
 - Path planning
 - Control of Sawyer's arm
+- Transformation between 
 
 #### Galen Kimball
 Hi! I'm Galen, a second-year EECS major
@@ -136,7 +138,9 @@ Hello! I'm Mengti, a fourth-year Cognitive Science major
 #### Ning Pang
 Hi! I'm Ning, a fourth-year EECS major\
 - Final solutions phase
-  - Actuation & execution of the arm during the
+  - Actuation & execution of the arm
+- Research of packages
+- Recording & Media
 
 
 
