@@ -63,13 +63,16 @@ The implemented steps were:
    - A photo of the maze is taken and saved for further processing
 3. Transform
    - A homographic transform is used to resize the image so it can be processed accurately
+   - A couple strategies are used to process this image
+     - First, we begin with a high binarization threshold and gradually lower the threshold until BFS is able to find a solution. This ensures different lighting conditions do not adversely affect Sawyer's performance. 
+     - Next, we pad the walls with extra pixels to mitigate the shortest path's tendency to hug the edge of a wall
 4. Solve
    - A simple BFS is used to determine the solution to the maze. Since this is a relatively small maze and image we can use BFS efficiently
    - Output a list of the most critical 3d points (corners) in space that the end-effector must pass through to draw out the solution
 5. Draw Solution
    - Sawyer iterates through each of the points in the list outputted by the BFS program one-by-one and utilizes the linear path-planning algorithm to draw the final solution. 
 
-A brief flowchart of the steps: 
+A more detailed flowchart of the steps: 
 ![task flowchart](https://i.imgur.com/IGEqm7v.png)
 
 
