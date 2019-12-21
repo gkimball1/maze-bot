@@ -47,6 +47,8 @@ Since Sawyer's precision would be limited by the lack of closed-loop control aro
 As such, we used an elastic suspension system that would allow the marker to be displaced a small amount from its equilibrium position, protecting ourselves from compromising neither our drawing capabilities or the structural integrity of the marker itself. 
 This gives a small tradeoff of having the marker have a little bit of "lag" as it's dragged across the whiteboard, but for the much greater benefit of stability and simplicity of design.
 
+![marker with suspension](https://i.imgur.com/fMEyy1n.png)
+
 The result of these design choices results in a rather useful robot for use in certain applications. For instance, for operation on an assembly line, the use of just 1 AR tag on each part means less overhead in AR tag placement per part. 
 The durability of the marker is significantly lengthened because of the suspension; the elasticity lends some error forgiveness as the robot draws over the whiteboard. 
 
