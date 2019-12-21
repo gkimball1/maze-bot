@@ -78,7 +78,7 @@ Our project worked well and was relatively robust to most external factors, with
 
 The robot could take an image of a maze on a whiteboard, locate the AR tag, process the image, and draw the correct solution in a total timespan of about 30 seconds. 
 
-Video: [link to robot doing work](https://www.youtube.com/watch?v=SH7D741mQQQ&feature=youtu.be)
+**Video:** [link to robot doing work](https://www.youtube.com/watch?v=SH7D741mQQQ&feature=youtu.be)
 
 ## Conclusion
 Our finished solution satisfied our design criteria fairly well. Our robot was able to locate and solve a whiteboard maze using only one AR tag as a location/orientation marker. 
