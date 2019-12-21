@@ -68,11 +68,20 @@ The implemented steps were:
      - Next, we pad the walls with extra pixels to mitigate the shortest path's tendency to hug the edge of a wall
 4. Solve
    - A simple BFS is used to determine the solution to the maze. Since this is a relatively small maze and image we can use BFS efficiently
-   - Output a list of the most critical 3d points (corners) in space that the end-effector must pass through to draw out the solution
+   - Transform a list of 2d critical points into 3d coordinates
+     - Transform from the 2d image to 3d AR Tag coordinates, and from there to Sawyer's base frame coordinates
+     - Output a list of the most critical 3d points (corners) in space that the end-effector must pass through to draw out the solution
 5. Draw Solution
    - Sawyer iterates through each of the points in the list outputted by the BFS program one-by-one and utilizes the linear path-planning algorithm to draw the final solution. 
 
-A more detailed flowchart of the steps: 
+A more detailed flowchart of the steps is below.
+**Key:**
+
+- Yellow: hardcoded
+- Red: sensing/computer vision
+- Green: planning
+- Purple: control
+
 ![task flowchart](https://i.imgur.com/IGEqm7v.png)
 
 
@@ -100,18 +109,21 @@ It would also be nice to have dynamic whiteboard sizing. Potential solutions cou
 
 ## Team
 #### Adrian Liu
-- \
+Hello! I'm Adrian, a third-year CS major
+- Image processing
+  - Transforming raw data into binarized image
 
 #### Bolun Du
 - \
 
 #### Galen Kimball
 Hi! I'm Galen, a second year EECS major
-- Broad level overview of robot tasks and solution approach, general design and implementation
+- High level overview of robot tasks and solution approach, general design and implementation such as the wall-padding
 - Website & Media
 
 #### Mengti Sun
-- \
+Hi! I'm <.........>
+- Pathfinding and BFS
 
 #### Ning Pang
 - \
