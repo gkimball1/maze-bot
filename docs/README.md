@@ -75,6 +75,7 @@ The implemented steps were:
    - Sawyer iterates through each of the points in the list outputted by the BFS program one-by-one and utilizes the linear path-planning algorithm to draw the final solution. 
 
 A more detailed flowchart of the steps is below.
+
 **Key:**
 
 - Yellow: hardcoded
@@ -114,6 +115,7 @@ Hello! I'm Adrian, a third-year CS major
   - Transforming raw data into binarized image
 
 #### Bolun Du
+<Greeting here>! I'm <.........>
 - \
 
 #### Galen Kimball
@@ -122,10 +124,11 @@ Hi! I'm Galen, a second year EECS major
 - Website & Media
 
 #### Mengti Sun
-Hi! I'm <.........>
+<Greeting here>! I'm <.........>
 - Pathfinding and BFS
 
 #### Ning Pang
+<Greeting here>! I'm <.........>
 - \
 
 
