@@ -29,7 +29,7 @@ There are several applications of this that could be useful in industrial or hou
 - Moving packages around in a giant warehouse.
   - If Sawyer were a few orders of magnitude larger, it would be able to pick up a package, find a path through the warehouse that wouldn't knock over the preexisting stacks of apparel, and deposit the package in a place the package should be deposited in. @Amazon--we're open for hire. 
 
-## Design
+## **Design**
 Ultimately, the design of this solution must be able to correctly and cleanly solve a whiteboard maze. It must be able to locate the whiteboard's location & orientation, the starting point, and the ending point, and from there be able to trace its end-effector over the proper path through the maze. 
 
 We chose a whiteboard with a duct-taped maze and an AR tag located directly next to the start position. This AR tag would allow for detection of whiteboard characterisitics. 
