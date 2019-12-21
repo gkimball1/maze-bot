@@ -125,7 +125,7 @@ Greetings! I'm Bolun, a third-year EECS major
 
 #### Galen Kimball
 Hi! I'm Galen, a second-year EECS major
-- High level overview of robot tasks and solution approach, general design and implementation such as the wall-padding strat
+- High level overview of robot tasks and solution approach, general design and implementation details such as the wall-padding strat
 - Website & Media
 
 #### Mengti Sun
@@ -134,8 +134,9 @@ Hello! I'm Mengti, a fourth-year Cognitive Science major
 - Pathfinding and BFS
 
 #### Ning Pang
-Hi! I'm Ning, a fourth-year EECS major
-- Actuation & execution of the arm during the final solutions phase
+Hi! I'm Ning, a fourth-year EECS major\
+- Final solutions phase
+  - Actuation & execution of the arm during the
 
 
 
