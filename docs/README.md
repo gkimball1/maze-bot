@@ -119,21 +119,24 @@ Hello! I'm Adrian, a third-year CS major
   - Transforming raw data into binarized image
 
 #### Bolun Du
-(Greeting here)! I'm <.........>
-- \
+Greetings! I'm Bolun, a third-year EECS major
+- Path planning
+- Control of Sawyer's arm
 
 #### Galen Kimball
-Hi! I'm Galen, a second year EECS major
-- High level overview of robot tasks and solution approach, general design and implementation such as the wall-padding
+Hi! I'm Galen, a second-year EECS major
+- High level overview of robot tasks and solution approach, general design and implementation such as the wall-padding strat
 - Website & Media
 
 #### Mengti Sun
-(Greeting here)! I'm <.........>
+Hello! I'm Mengti, a fourth-year Cognitive Science major
+- Maze Solver
 - Pathfinding and BFS
 
 #### Ning Pang
-(Greeting here)! I'm <.........>
-- \
+Hi! I'm Ning, a fourth-year EECS major
+- Actuation & execution of the arm during the final solutions phase
+
 
 
 ## Additional Materials
