@@ -117,23 +117,26 @@ A nicer camera and/or better image processing ability would also be useful and g
 #### Adrian Liu
 Hello! I'm Adrian, a third-year CS major
 - Image processing
-  - Transforming raw data into binarized image
+  - Transformation of raw data to binarized image
+  - Iterative binarization process
 
 #### Bolun Du
 Greetings! I'm Bolun, a third-year EECS major
 - Path planning
 - Control of Sawyer's arm
-- Transformation between 
+- Translation between physical coordinates to actualized motion
 
 #### Galen Kimball
 Hi! I'm Galen, a second-year EECS major
-- High level overview of robot tasks and solution approach, general design and implementation details such as the wall-padding strat
+- High level overview of robot tasks and solution approach
+  - General design and implementation details such as the wall-padding strat
 - Website & Media
 
 #### Mengti Sun
 Hello! I'm Mengti, a fourth-year Cognitive Science major
 - Maze Solver
 - Pathfinding and BFS
+- Transform between pixel location to AR Tag-relative coordinates
 
 #### Ning Pang
 Hi! I'm Ning, a fourth-year EECS major\
