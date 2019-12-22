@@ -133,9 +133,9 @@ Hi! I'm Galen, a second-year EECS major
 - Website & Media
 
 #### Mengti Sun
-Hello! I'm Mengti, a fourth-year Cognitive Science major
+Hello! I'm Mengti, a third-year Computer Science major
 - Maze Solver
-- Pathfinding and BFS
+- Use BFS to solve the maze
 - Transform between pixel location to AR Tag-relative coordinates
 
 #### Ning Pang
