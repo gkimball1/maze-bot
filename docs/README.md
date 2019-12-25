@@ -1,5 +1,6 @@
 ## Overview
-Sawyer is a single-arm robot intended for working alongside humans and for use in industrial settings. We used various strategies taught in Berkeley's Introduction to Robotics course to allow Sawyer to analyze a maze drawn on a whiteboard before drawing the solution on the same whiteboard. 
+Sawyer is a single-arm robot intended for working in industrial settings or alongside humans. 
+We used various strategies taught in Berkeley's Introduction to Robotics course to allow Sawyer to analyze a maze on a whiteboard before drawing the solution on the same whiteboard. 
 
 ### Goal
 Sawyer should precisely and accurately produce and draw a solution to a maze on a whiteboard. 
@@ -12,14 +13,14 @@ Before Sawyer is able to complete the main task at hand, it must first be able s
    - Sawyer must be able to translate a real-world image into a digitized data structure that is operable on by maze-solving algorithms
    - Sawyer must also be able to identify the start and end locations
 2. Solving the Maze
-   - Provided with a digitized image, Sawyer must compute the optimal path to move from the start position to the end position
+   - Given a digitized image, Sawyer must compute the optimal path to move from the start position to the end position
 3. Translation to Real World
    - Sawyer must be able to use the solved maze path to determine a list of 3D locations in the real world that its end gripper (to which the marker is attached) must move through to draw the desired solution. 
 4. Motion & Final Solution
-   - Sawyer must use various control laws and path planning to move through the proper locations and ultimately deposit the correct ink path solving the maze onto the whiteboard. 
+   - Sawyer must use various control laws and path planning to move through the proper locations and ultimately deposit the correct ink path, solving the maze onto the whiteboard. 
 
 ### Applications
-There are several applications of this that could be useful in industrial or household settings. Many deal with "soft" obstacles that aren't necessarily life-ending if the robot runs into them, but still present some suboptimality in the task at hand. 
+There are several applications of such a path-finding robot that could be useful in industrial or household settings. Many deal with "soft" obstacles that aren't necessarily life-ending if the robot runs into them, but still present some suboptimality in the task at hand. 
 - Having Sawyer recognize >= 2 containers and dispense something into them--say, dumping peanuts into some peanut jars in a peanut processing facility. 
   - Sawyer will begin at one peanut jar (the "start" point), dispense, move to another peanut jar (the end point), and dispense again. It is sub-optimal if is Sawyer is dispensing peanuts during the whole path between the first jar and the second jar. 
 - Welding two plates of metal together. 
