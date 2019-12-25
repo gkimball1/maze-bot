@@ -140,7 +140,7 @@ Hello! I'm Mengti, a third-year Computer Science major
 - Transform between pixel location to AR Tag-relative coordinates
 
 #### Ning Pang
-Hi! I'm Ning, a fourth-year EECS major\
+Hi! I'm Ning, a fourth-year EECS major
 - Final solutions phase
   - Actuation & execution of the arm
 - Research of packages
